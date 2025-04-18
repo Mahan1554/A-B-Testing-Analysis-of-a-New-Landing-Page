@@ -79,26 +79,26 @@ elif selected == "3. Visualizations":
     # Two-column layout for first two plots
     col1, col2 = st.columns(2)
     with col1:
-        st.image("https://github.com/Mahan1554/A-B-Testing-Analysis-of-a-New-Landing-Page/blob/main/average_conversion_by_group.png", caption="Average Conversion Rate by Group", use_container_width=True)
+        st.image("average_conversion_by_group.png", caption="Average Conversion Rate by Group", use_container_width=True)
         st.markdown("""
             *Insight*: The control group (12.04%) slightly outperforms the treatment group (11.88%), but the difference appears minor.
         """)
     with col2:
-        st.image("https://github.com/Mahan1554/A-B-Testing-Analysis-of-a-New-Landing-Page/blob/main/received_rate_control_treatment.png", caption="Received Rates for Both Groups", use_container_width=True)
+        st.image("received_rate_control_treatment.png", caption="Received Rates for Both Groups", use_container_width=True)
         st.markdown("""
             *Insight*: The near-equal split (50.16% vs. 49.84%) confirms a balanced random assignment.
         """)
 
     # Remaining plots
-    st.image("https://github.com/Mahan1554/A-B-Testing-Analysis-of-a-New-Landing-Page/blob/main/conversion_hist_by_group.png", caption="Conversion Distribution by Group", use_container_width=True)
+    st.image("conversion_hist_by_group.png", caption="Conversion Distribution by Group", use_container_width=True)
     st.markdown("""
         *Insight*: Both groups show similar conversion distributions, suggesting no major behavioral shift with the new page.
     """)
-    st.image("https://github.com/Mahan1554/A-B-Testing-Analysis-of-a-New-Landing-Page/blob/main/daily_rolling_avg.png", caption="Daily and 7-Day Rolling Average Conversion Rates", use_container_width=True)
+    st.image("daily_rolling_avg.png", caption="Daily and 7-Day Rolling Average Conversion Rates", use_container_width=True)
     st.markdown("""
         *Insight*: Conversion trends remain stable over time, with no clear advantage for either page.
     """)
-    st.image("https://github.com/Mahan1554/A-B-Testing-Analysis-of-a-New-Landing-Page/blob/main/z_test_distribution.png", caption="Z-Test Visualization with Rejection Regions", use_container_width=True)
+    st.image("z_test_distribution.png", caption="Z-Test Visualization with Rejection Regions", use_container_width=True)
     st.markdown("""
         *Insight*: The test statistic falls outside the rejection regions, indicating no significant difference.
     """)
@@ -138,7 +138,7 @@ elif selected == "4. Hypothesis Testing":
     """)
 
     st.subheader("Z-Test Visualization")
-    st.image("https://github.com/Mahan1554/A-B-Testing-Analysis-of-a-New-Landing-Page/blob/main/z_test_distribution.png", caption="Z-Test Normal Distribution with Rejection Regions (α = 0.05)")
+    st.image("z_test_distribution.png", caption="Z-Test Normal Distribution with Rejection Regions (α = 0.05)")
     st.markdown("""
         The z-score (-1.3109) lies within the acceptance region, supporting the null hypothesis.
     """)
