@@ -22,7 +22,7 @@ The company wants to increase conversions (e.g., purchases or signups). To achie
 
 ## 📊 Analysis & Methods
 
-- Data Cleaning & Preprocessing
+- Data Cleaning & Data Preprocessing
 - Exploratory Data Analysis
 - Visualizations:
   - Average conversion rate by group
